@@ -1,2 +1,0 @@
-[console_scripts]
-ui = drobot_ui.nodes.ui_node:main
