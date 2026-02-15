@@ -1,0 +1,22 @@
+[1.139s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_yolo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_yolo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_yolo/build --no-deps symlink_data
+[1.537s] running develop
+[1.797s] running egg_info
+[1.797s] creating drobot_yolo.egg-info
+[1.822s] writing drobot_yolo.egg-info/PKG-INFO
+[1.822s] writing dependency_links to drobot_yolo.egg-info/dependency_links.txt
+[1.822s] writing requirements to drobot_yolo.egg-info/requires.txt
+[1.823s] writing top-level names to drobot_yolo.egg-info/top_level.txt
+[1.823s] writing manifest file 'drobot_yolo.egg-info/SOURCES.txt'
+[1.873s] reading manifest file 'drobot_yolo.egg-info/SOURCES.txt'
+[1.873s] writing manifest file 'drobot_yolo.egg-info/SOURCES.txt'
+[1.900s] running build_ext
+[1.900s] Creating /home/leo11dk/Desktop/drobot/install/drobot_yolo/lib/python3.12/site-packages/drobot-yolo.egg-link (link to .)
+[1.900s] 
+[1.900s] Installed /home/leo11dk/Desktop/drobot/build/drobot_yolo
+[1.901s] running symlink_data
+[1.901s] creating /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/ament_index
+[1.901s] creating /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/ament_index/resource_index
+[1.901s] creating /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/ament_index/resource_index/packages
+[1.901s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_yolo/resource/drobot_yolo -> /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/ament_index/resource_index/packages
+[1.901s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_yolo/package.xml -> /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/drobot_yolo
+[1.940s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_yolo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_yolo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_yolo/build --no-deps symlink_data

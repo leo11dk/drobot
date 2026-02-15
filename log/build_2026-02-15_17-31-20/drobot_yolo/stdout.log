@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating drobot_yolo.egg-info
+writing drobot_yolo.egg-info/PKG-INFO
+writing dependency_links to drobot_yolo.egg-info/dependency_links.txt
+writing requirements to drobot_yolo.egg-info/requires.txt
+writing top-level names to drobot_yolo.egg-info/top_level.txt
+writing manifest file 'drobot_yolo.egg-info/SOURCES.txt'
+reading manifest file 'drobot_yolo.egg-info/SOURCES.txt'
+writing manifest file 'drobot_yolo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/leo11dk/Desktop/drobot/install/drobot_yolo/lib/python3.12/site-packages/drobot-yolo.egg-link (link to .)
+
+Installed /home/leo11dk/Desktop/drobot/build/drobot_yolo
+running symlink_data
+creating /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/ament_index
+creating /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/ament_index/resource_index
+creating /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/ament_index/resource_index/packages
+symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_yolo/resource/drobot_yolo -> /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/ament_index/resource_index/packages
+symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_yolo/package.xml -> /home/leo11dk/Desktop/drobot/install/drobot_yolo/share/drobot_yolo

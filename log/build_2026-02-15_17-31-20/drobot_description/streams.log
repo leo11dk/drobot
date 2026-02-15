@@ -1,0 +1,44 @@
+[0.483s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo11dk/Desktop/drobot/install/drobot_yolo:/home/leo11dk/Desktop/drobot/install/drobot_ui:/home/leo11dk/Desktop/drobot/install/drobot_strategy:/home/leo11dk/Desktop/drobot/install/drobot_scan_3d:/home/leo11dk/Desktop/drobot/install/drobot_scan_2d:/home/leo11dk/Desktop/drobot/install/drobot_controller:/home/leo11dk/Desktop/drobot/install/drobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leo11dk/Desktop/drobot/src/drobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leo11dk/Desktop/drobot/install/drobot_description
+[0.982s] -- The C compiler identification is GNU 13.3.0
+[0.982s] -- The CXX compiler identification is GNU 13.3.0
+[0.982s] -- Detecting C compiler ABI info
+[0.983s] -- Detecting C compiler ABI info - done
+[0.983s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.983s] -- Detecting C compile features
+[0.983s] -- Detecting C compile features - done
+[0.983s] -- Detecting CXX compiler ABI info
+[0.983s] -- Detecting CXX compiler ABI info - done
+[0.983s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.983s] -- Detecting CXX compile features
+[0.983s] -- Detecting CXX compile features - done
+[0.983s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.132s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.286s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.366s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.540s] -- Added test 'lint_cmake' to check CMake code style
+[1.545s] -- Added test 'xmllint' to check XML markup files
+[1.547s] -- Configuring done (1.1s)
+[1.552s] -- Generating done (0.0s)
+[1.555s] -- Build files have been written to: /home/leo11dk/Desktop/drobot/build/drobot_description
+[1.563s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo11dk/Desktop/drobot/install/drobot_yolo:/home/leo11dk/Desktop/drobot/install/drobot_ui:/home/leo11dk/Desktop/drobot/install/drobot_strategy:/home/leo11dk/Desktop/drobot/install/drobot_scan_3d:/home/leo11dk/Desktop/drobot/install/drobot_scan_2d:/home/leo11dk/Desktop/drobot/install/drobot_controller:/home/leo11dk/Desktop/drobot/install/drobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leo11dk/Desktop/drobot/src/drobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leo11dk/Desktop/drobot/install/drobot_description
+[1.565s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo11dk/Desktop/drobot/install/drobot_yolo:/home/leo11dk/Desktop/drobot/install/drobot_ui:/home/leo11dk/Desktop/drobot/install/drobot_strategy:/home/leo11dk/Desktop/drobot/install/drobot_scan_3d:/home/leo11dk/Desktop/drobot/install/drobot_scan_2d:/home/leo11dk/Desktop/drobot/install/drobot_controller:/home/leo11dk/Desktop/drobot/install/drobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leo11dk/Desktop/drobot/build/drobot_description -- -j6 -l6
+[1.611s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo11dk/Desktop/drobot/install/drobot_yolo:/home/leo11dk/Desktop/drobot/install/drobot_ui:/home/leo11dk/Desktop/drobot/install/drobot_strategy:/home/leo11dk/Desktop/drobot/install/drobot_scan_3d:/home/leo11dk/Desktop/drobot/install/drobot_scan_2d:/home/leo11dk/Desktop/drobot/install/drobot_controller:/home/leo11dk/Desktop/drobot/install/drobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leo11dk/Desktop/drobot/build/drobot_description -- -j6 -l6
+[1.625s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo11dk/Desktop/drobot/install/drobot_yolo:/home/leo11dk/Desktop/drobot/install/drobot_ui:/home/leo11dk/Desktop/drobot/install/drobot_strategy:/home/leo11dk/Desktop/drobot/install/drobot_scan_3d:/home/leo11dk/Desktop/drobot/install/drobot_scan_2d:/home/leo11dk/Desktop/drobot/install/drobot_controller:/home/leo11dk/Desktop/drobot/install/drobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/leo11dk/Desktop/drobot/build/drobot_description
+[1.634s] -- Install configuration: ""
+[1.635s] -- Execute custom install script
+[1.637s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/ament_index/resource_index/package_run_dependencies/drobot_description
+[1.648s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/ament_index/resource_index/parent_prefix_path/drobot_description
+[1.663s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/environment/ament_prefix_path.sh
+[1.675s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/environment/ament_prefix_path.dsv
+[1.689s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/environment/path.sh
+[1.700s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/environment/path.dsv
+[1.712s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/local_setup.bash
+[1.723s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/local_setup.sh
+[1.733s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/local_setup.zsh
+[1.745s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/local_setup.dsv
+[1.755s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/package.dsv
+[1.766s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/ament_index/resource_index/packages/drobot_description
+[1.777s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/cmake/drobot_descriptionConfig.cmake
+[1.786s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/cmake/drobot_descriptionConfig-version.cmake
+[1.796s] -- Symlinking: /home/leo11dk/Desktop/drobot/install/drobot_description/share/drobot_description/package.xml
+[1.809s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo11dk/Desktop/drobot/install/drobot_yolo:/home/leo11dk/Desktop/drobot/install/drobot_ui:/home/leo11dk/Desktop/drobot/install/drobot_strategy:/home/leo11dk/Desktop/drobot/install/drobot_scan_3d:/home/leo11dk/Desktop/drobot/install/drobot_scan_2d:/home/leo11dk/Desktop/drobot/install/drobot_controller:/home/leo11dk/Desktop/drobot/install/drobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/leo11dk/Desktop/drobot/build/drobot_description

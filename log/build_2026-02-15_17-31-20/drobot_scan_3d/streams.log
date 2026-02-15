@@ -1,0 +1,22 @@
+[2.092s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_scan_3d': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_scan_3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_scan_3d/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_scan_3d/build --no-deps symlink_data
+[2.601s] running develop
+[2.937s] running egg_info
+[2.937s] creating drobot_scan_3d.egg-info
+[2.965s] writing drobot_scan_3d.egg-info/PKG-INFO
+[2.968s] writing dependency_links to drobot_scan_3d.egg-info/dependency_links.txt
+[2.968s] writing requirements to drobot_scan_3d.egg-info/requires.txt
+[2.968s] writing top-level names to drobot_scan_3d.egg-info/top_level.txt
+[2.968s] writing manifest file 'drobot_scan_3d.egg-info/SOURCES.txt'
+[3.025s] reading manifest file 'drobot_scan_3d.egg-info/SOURCES.txt'
+[3.026s] writing manifest file 'drobot_scan_3d.egg-info/SOURCES.txt'
+[3.058s] running build_ext
+[3.059s] Creating /home/leo11dk/Desktop/drobot/install/drobot_scan_3d/lib/python3.12/site-packages/drobot-scan-3d.egg-link (link to .)
+[3.059s] 
+[3.059s] Installed /home/leo11dk/Desktop/drobot/build/drobot_scan_3d
+[3.059s] running symlink_data
+[3.060s] creating /home/leo11dk/Desktop/drobot/install/drobot_scan_3d/share/ament_index
+[3.060s] creating /home/leo11dk/Desktop/drobot/install/drobot_scan_3d/share/ament_index/resource_index
+[3.060s] creating /home/leo11dk/Desktop/drobot/install/drobot_scan_3d/share/ament_index/resource_index/packages
+[3.061s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_scan_3d/resource/drobot_scan_3d -> /home/leo11dk/Desktop/drobot/install/drobot_scan_3d/share/ament_index/resource_index/packages
+[3.062s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_scan_3d/package.xml -> /home/leo11dk/Desktop/drobot/install/drobot_scan_3d/share/drobot_scan_3d
+[3.117s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_scan_3d' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_scan_3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_scan_3d/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_scan_3d/build --no-deps symlink_data

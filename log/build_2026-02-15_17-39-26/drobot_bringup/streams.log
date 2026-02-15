@@ -1,0 +1,17 @@
+[0.948s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_bringup/build --no-deps symlink_data
+[1.329s] running develop
+[1.591s] running egg_info
+[1.616s] writing drobot_bringup.egg-info/PKG-INFO
+[1.616s] writing dependency_links to drobot_bringup.egg-info/dependency_links.txt
+[1.617s] writing entry points to drobot_bringup.egg-info/entry_points.txt
+[1.617s] writing requirements to drobot_bringup.egg-info/requires.txt
+[1.617s] writing top-level names to drobot_bringup.egg-info/top_level.txt
+[1.667s] reading manifest file 'drobot_bringup.egg-info/SOURCES.txt'
+[1.668s] writing manifest file 'drobot_bringup.egg-info/SOURCES.txt'
+[1.694s] running build_ext
+[1.694s] Creating /home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages/drobot-bringup.egg-link (link to .)
+[1.694s] Installing world_ui script to /home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/drobot_bringup
+[1.695s] 
+[1.695s] Installed /home/leo11dk/Desktop/drobot/build/drobot_bringup
+[1.695s] running symlink_data
+[1.725s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_bringup/build --no-deps symlink_data

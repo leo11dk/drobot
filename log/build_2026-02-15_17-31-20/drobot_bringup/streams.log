@@ -1,0 +1,26 @@
+[2.116s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_bringup/build --no-deps symlink_data
+[2.838s] running develop
+[3.232s] running egg_info
+[3.232s] creating drobot_bringup.egg-info
+[3.279s] writing drobot_bringup.egg-info/PKG-INFO
+[3.279s] writing dependency_links to drobot_bringup.egg-info/dependency_links.txt
+[3.279s] writing entry points to drobot_bringup.egg-info/entry_points.txt
+[3.279s] writing requirements to drobot_bringup.egg-info/requires.txt
+[3.279s] writing top-level names to drobot_bringup.egg-info/top_level.txt
+[3.279s] writing manifest file 'drobot_bringup.egg-info/SOURCES.txt'
+[3.384s] reading manifest file 'drobot_bringup.egg-info/SOURCES.txt'
+[3.385s] writing manifest file 'drobot_bringup.egg-info/SOURCES.txt'
+[3.412s] running build_ext
+[3.412s] Creating /home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages/drobot-bringup.egg-link (link to .)
+[3.413s] Installing world_ui script to /home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/drobot_bringup
+[3.413s] 
+[3.414s] Installed /home/leo11dk/Desktop/drobot/build/drobot_bringup
+[3.414s] running symlink_data
+[3.414s] creating /home/leo11dk/Desktop/drobot/install/drobot_bringup/share/ament_index
+[3.415s] creating /home/leo11dk/Desktop/drobot/install/drobot_bringup/share/ament_index/resource_index
+[3.415s] creating /home/leo11dk/Desktop/drobot/install/drobot_bringup/share/ament_index/resource_index/packages
+[3.415s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_bringup/resource/drobot_bringup -> /home/leo11dk/Desktop/drobot/install/drobot_bringup/share/ament_index/resource_index/packages
+[3.416s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_bringup/package.xml -> /home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup
+[3.420s] creating /home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/launch
+[3.420s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_bringup/launch/bringup.launch.py -> /home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/launch
+[3.472s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_bringup/build --no-deps symlink_data

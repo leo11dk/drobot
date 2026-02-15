@@ -1,0 +1,22 @@
+[2.117s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_controller/build --no-deps symlink_data
+[2.807s] running develop
+[3.108s] running egg_info
+[3.108s] creating drobot_controller.egg-info
+[3.140s] writing drobot_controller.egg-info/PKG-INFO
+[3.140s] writing dependency_links to drobot_controller.egg-info/dependency_links.txt
+[3.140s] writing requirements to drobot_controller.egg-info/requires.txt
+[3.140s] writing top-level names to drobot_controller.egg-info/top_level.txt
+[3.140s] writing manifest file 'drobot_controller.egg-info/SOURCES.txt'
+[3.201s] reading manifest file 'drobot_controller.egg-info/SOURCES.txt'
+[3.202s] writing manifest file 'drobot_controller.egg-info/SOURCES.txt'
+[3.234s] running build_ext
+[3.234s] Creating /home/leo11dk/Desktop/drobot/install/drobot_controller/lib/python3.12/site-packages/drobot-controller.egg-link (link to .)
+[3.235s] 
+[3.235s] Installed /home/leo11dk/Desktop/drobot/build/drobot_controller
+[3.235s] running symlink_data
+[3.237s] creating /home/leo11dk/Desktop/drobot/install/drobot_controller/share/ament_index
+[3.237s] creating /home/leo11dk/Desktop/drobot/install/drobot_controller/share/ament_index/resource_index
+[3.237s] creating /home/leo11dk/Desktop/drobot/install/drobot_controller/share/ament_index/resource_index/packages
+[3.237s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_controller/resource/drobot_controller -> /home/leo11dk/Desktop/drobot/install/drobot_controller/share/ament_index/resource_index/packages
+[3.238s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_controller/package.xml -> /home/leo11dk/Desktop/drobot/install/drobot_controller/share/drobot_controller
+[3.296s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_controller/build --no-deps symlink_data

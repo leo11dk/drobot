@@ -1,0 +1,209 @@
+[0.122s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'drobot_bringup', '--symlink-install']
+[0.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['drobot_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b3fadcc4dd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b3fadcc49e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b3fadcc49e0>>, mixin_verb=('build',))
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leo11dk/Desktop/drobot'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_bringup) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drobot_bringup' with type 'ros.ament_python' and name 'drobot_bringup'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_controller) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drobot_controller' with type 'ros.ament_python' and name 'drobot_controller'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_description) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drobot_description' with type 'ros.ament_cmake' and name 'drobot_description'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_2d) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drobot_scan_2d' with type 'ros.ament_python' and name 'drobot_scan_2d'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_scan_3d) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drobot_scan_3d' with type 'ros.ament_python' and name 'drobot_scan_3d'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_simulation) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drobot_simulation' with type 'ros.ament_cmake' and name 'drobot_simulation'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_strategy) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drobot_strategy' with type 'ros.ament_python' and name 'drobot_strategy'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/drobot_yolo) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drobot_yolo' with type 'ros.ament_python' and name 'drobot_yolo'
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drobot_controller' in 'src/drobot_controller'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drobot_description' in 'src/drobot_description'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drobot_scan_2d' in 'src/drobot_scan_2d'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drobot_scan_3d' in 'src/drobot_scan_3d'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drobot_simulation' in 'src/drobot_simulation'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drobot_strategy' in 'src/drobot_strategy'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drobot_yolo' in 'src/drobot_yolo'
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.218s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/leo11dk/Desktop/drobot/install/drobot_ui' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.219s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/leo11dk/Desktop/drobot/install
+[0.221s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/jazzy
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'drobot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'drobot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo11dk/Desktop/drobot/build/drobot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo11dk/Desktop/drobot/install/drobot_bringup', 'merge_install': False, 'path': '/home/leo11dk/Desktop/drobot/src/drobot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.281s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leo11dk/Desktop/drobot/src/drobot_bringup' with build type 'ament_python'
+[0.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('drobot_bringup', 'ament_prefix_path')
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/hook/ament_prefix_path.ps1'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/hook/ament_prefix_path.dsv'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/hook/ament_prefix_path.sh'
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leo11dk/Desktop/drobot/src/drobot_bringup'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_bringup/build --no-deps symlink_data
+[2.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('drobot_bringup', 'pythonpath_develop')
+[2.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo11dk/Desktop/drobot/build/drobot_bringup/share/drobot_bringup/hook/pythonpath_develop.ps1'
+[2.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_bringup/build --no-deps symlink_data
+[2.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo11dk/Desktop/drobot/build/drobot_bringup/share/drobot_bringup/hook/pythonpath_develop.dsv'
+[2.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo11dk/Desktop/drobot/build/drobot_bringup/share/drobot_bringup/hook/pythonpath_develop.sh'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/leo11dk/Desktop/drobot/install/drobot_bringup' for CMake module files
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/leo11dk/Desktop/drobot/install/drobot_bringup' for CMake config files
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib'
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/leo11dk/Desktop/drobot/install/drobot_bringup/bin'
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/pkgconfig/drobot_bringup.pc'
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/leo11dk/Desktop/drobot/install/drobot_bringup/lib/python3.12/site-packages'
+[2.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('drobot_bringup', 'pythonpath')
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/hook/pythonpath.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/hook/pythonpath.dsv'
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/hook/pythonpath.sh'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/leo11dk/Desktop/drobot/install/drobot_bringup/bin'
+[2.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drobot_bringup)
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/package.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/package.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/package.sh'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/package.bash'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/drobot_bringup/package.zsh'
+[2.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo11dk/Desktop/drobot/install/drobot_bringup/share/colcon-core/packages/drobot_bringup)
+[2.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.016s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.022s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.022s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.022s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.034s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo11dk/Desktop/drobot/install/local_setup.ps1'
+[2.035s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leo11dk/Desktop/drobot/install/_local_setup_util_ps1.py'
+[2.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo11dk/Desktop/drobot/install/setup.ps1'
+[2.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo11dk/Desktop/drobot/install/local_setup.sh'
+[2.037s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leo11dk/Desktop/drobot/install/_local_setup_util_sh.py'
+[2.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo11dk/Desktop/drobot/install/setup.sh'
+[2.039s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo11dk/Desktop/drobot/install/local_setup.bash'
+[2.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo11dk/Desktop/drobot/install/setup.bash'
+[2.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo11dk/Desktop/drobot/install/local_setup.zsh'
+[2.041s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo11dk/Desktop/drobot/install/setup.zsh'

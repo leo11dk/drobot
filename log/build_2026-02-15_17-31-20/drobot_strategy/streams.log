@@ -1,0 +1,22 @@
+[1.332s] Invoking command in '/home/leo11dk/Desktop/drobot/build/drobot_strategy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_strategy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_strategy/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_strategy/build --no-deps symlink_data
+[1.771s] running develop
+[2.059s] running egg_info
+[2.059s] creating drobot_strategy.egg-info
+[2.081s] writing drobot_strategy.egg-info/PKG-INFO
+[2.082s] writing dependency_links to drobot_strategy.egg-info/dependency_links.txt
+[2.082s] writing requirements to drobot_strategy.egg-info/requires.txt
+[2.082s] writing top-level names to drobot_strategy.egg-info/top_level.txt
+[2.082s] writing manifest file 'drobot_strategy.egg-info/SOURCES.txt'
+[2.131s] reading manifest file 'drobot_strategy.egg-info/SOURCES.txt'
+[2.131s] writing manifest file 'drobot_strategy.egg-info/SOURCES.txt'
+[2.157s] running build_ext
+[2.157s] Creating /home/leo11dk/Desktop/drobot/install/drobot_strategy/lib/python3.12/site-packages/drobot-strategy.egg-link (link to .)
+[2.158s] 
+[2.158s] Installed /home/leo11dk/Desktop/drobot/build/drobot_strategy
+[2.158s] running symlink_data
+[2.158s] creating /home/leo11dk/Desktop/drobot/install/drobot_strategy/share/ament_index
+[2.158s] creating /home/leo11dk/Desktop/drobot/install/drobot_strategy/share/ament_index/resource_index
+[2.158s] creating /home/leo11dk/Desktop/drobot/install/drobot_strategy/share/ament_index/resource_index/packages
+[2.158s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_strategy/resource/drobot_strategy -> /home/leo11dk/Desktop/drobot/install/drobot_strategy/share/ament_index/resource_index/packages
+[2.158s] symbolically linking /home/leo11dk/Desktop/drobot/build/drobot_strategy/package.xml -> /home/leo11dk/Desktop/drobot/install/drobot_strategy/share/drobot_strategy
+[2.199s] Invoked command in '/home/leo11dk/Desktop/drobot/build/drobot_strategy' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_strategy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_strategy/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leo11dk/Desktop/drobot/build/drobot_strategy/build --no-deps symlink_data
