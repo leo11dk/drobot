@@ -1,0 +1,19 @@
+[1.662s] Invoking command in '/home/leo11dk/Desktop/drobot/src/drobot_ui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_ui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drobot_ui build --build-base /home/leo11dk/Desktop/drobot/build/drobot_ui/build install --record /home/leo11dk/Desktop/drobot/build/drobot_ui/install.log --single-version-externally-managed install_data
+[1.964s] running egg_info
+[1.988s] writing ../../build/drobot_ui/drobot_ui.egg-info/PKG-INFO
+[1.988s] writing dependency_links to ../../build/drobot_ui/drobot_ui.egg-info/dependency_links.txt
+[1.989s] writing requirements to ../../build/drobot_ui/drobot_ui.egg-info/requires.txt
+[1.989s] writing top-level names to ../../build/drobot_ui/drobot_ui.egg-info/top_level.txt
+[2.037s] reading manifest file '../../build/drobot_ui/drobot_ui.egg-info/SOURCES.txt'
+[2.038s] writing manifest file '../../build/drobot_ui/drobot_ui.egg-info/SOURCES.txt'
+[2.038s] running build
+[2.038s] running build_py
+[2.038s] running install
+[2.045s] running install_lib
+[2.069s] running install_data
+[2.069s] running install_egg_info
+[2.094s] removing '/home/leo11dk/Desktop/drobot/install/drobot_ui/lib/python3.12/site-packages/drobot_ui-0.0.0-py3.12.egg-info' (and everything under it)
+[2.095s] Copying ../../build/drobot_ui/drobot_ui.egg-info to /home/leo11dk/Desktop/drobot/install/drobot_ui/lib/python3.12/site-packages/drobot_ui-0.0.0-py3.12.egg-info
+[2.095s] running install_scripts
+[2.252s] writing list of installed files to '/home/leo11dk/Desktop/drobot/build/drobot_ui/install.log'
+[2.279s] Invoked command in '/home/leo11dk/Desktop/drobot/src/drobot_ui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_ui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drobot_ui build --build-base /home/leo11dk/Desktop/drobot/build/drobot_ui/build install --record /home/leo11dk/Desktop/drobot/build/drobot_ui/install.log --single-version-externally-managed install_data
