@@ -1,0 +1,32 @@
+[7.959s] Invoking command in '/home/leo11dk/Desktop/drobot/src/drobot_scan_2d': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_scan_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_scan_2d/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drobot_scan_2d build --build-base /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/build install --record /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/install.log --single-version-externally-managed install_data
+[8.324s] running egg_info
+[8.324s] creating ../../build/drobot_scan_2d/drobot_scan_2d.egg-info
+[8.355s] writing ../../build/drobot_scan_2d/drobot_scan_2d.egg-info/PKG-INFO
+[8.355s] writing dependency_links to ../../build/drobot_scan_2d/drobot_scan_2d.egg-info/dependency_links.txt
+[8.355s] writing requirements to ../../build/drobot_scan_2d/drobot_scan_2d.egg-info/requires.txt
+[8.355s] writing top-level names to ../../build/drobot_scan_2d/drobot_scan_2d.egg-info/top_level.txt
+[8.355s] writing manifest file '../../build/drobot_scan_2d/drobot_scan_2d.egg-info/SOURCES.txt'
+[8.413s] reading manifest file '../../build/drobot_scan_2d/drobot_scan_2d.egg-info/SOURCES.txt'
+[8.414s] writing manifest file '../../build/drobot_scan_2d/drobot_scan_2d.egg-info/SOURCES.txt'
+[8.414s] running build
+[8.414s] running build_py
+[8.415s] creating /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/build
+[8.415s] creating /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/build/lib
+[8.415s] creating /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/build/lib/drobot_scan_2d
+[8.415s] copying drobot_scan_2d/__init__.py -> /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/build/lib/drobot_scan_2d
+[8.418s] running install
+[8.425s] running install_lib
+[8.454s] creating /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/lib/python3.12/site-packages/drobot_scan_2d
+[8.454s] copying /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/build/lib/drobot_scan_2d/__init__.py -> /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/lib/python3.12/site-packages/drobot_scan_2d
+[8.454s] byte-compiling /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/lib/python3.12/site-packages/drobot_scan_2d/__init__.py to __init__.cpython-312.pyc
+[8.455s] running install_data
+[8.455s] creating /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/share/ament_index
+[8.455s] creating /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/share/ament_index/resource_index
+[8.455s] creating /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/share/ament_index/resource_index/packages
+[8.455s] copying resource/drobot_scan_2d -> /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/share/ament_index/resource_index/packages
+[8.455s] copying package.xml -> /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/share/drobot_scan_2d
+[8.456s] running install_egg_info
+[8.486s] Copying ../../build/drobot_scan_2d/drobot_scan_2d.egg-info to /home/leo11dk/Desktop/drobot/install/drobot_scan_2d/lib/python3.12/site-packages/drobot_scan_2d-0.0.0-py3.12.egg-info
+[8.487s] running install_scripts
+[8.673s] writing list of installed files to '/home/leo11dk/Desktop/drobot/build/drobot_scan_2d/install.log'
+[8.885s] Invoked command in '/home/leo11dk/Desktop/drobot/src/drobot_scan_2d' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leo11dk/Desktop/drobot/build/drobot_scan_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo11dk/Desktop/drobot/install/drobot_scan_2d/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drobot_scan_2d build --build-base /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/build install --record /home/leo11dk/Desktop/drobot/build/drobot_scan_2d/install.log --single-version-externally-managed install_data

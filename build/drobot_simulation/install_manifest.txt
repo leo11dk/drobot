@@ -1,0 +1,15 @@
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/ament_index/resource_index/package_run_dependencies/drobot_simulation
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/ament_index/resource_index/parent_prefix_path/drobot_simulation
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/environment/ament_prefix_path.sh
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/environment/ament_prefix_path.dsv
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/environment/path.sh
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/environment/path.dsv
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/local_setup.bash
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/local_setup.sh
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/local_setup.zsh
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/local_setup.dsv
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/package.dsv
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/ament_index/resource_index/packages/drobot_simulation
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/cmake/drobot_simulationConfig.cmake
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/cmake/drobot_simulationConfig-version.cmake
+/home/leo11dk/Desktop/drobot/install/drobot_simulation/share/drobot_simulation/package.xml
