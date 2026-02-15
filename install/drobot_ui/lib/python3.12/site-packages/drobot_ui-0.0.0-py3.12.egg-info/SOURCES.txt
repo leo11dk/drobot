@@ -4,10 +4,13 @@ setup.py
 ../../build/drobot_ui/drobot_ui.egg-info/PKG-INFO
 ../../build/drobot_ui/drobot_ui.egg-info/SOURCES.txt
 ../../build/drobot_ui/drobot_ui.egg-info/dependency_links.txt
+../../build/drobot_ui/drobot_ui.egg-info/entry_points.txt
 ../../build/drobot_ui/drobot_ui.egg-info/requires.txt
 ../../build/drobot_ui/drobot_ui.egg-info/top_level.txt
 ../../build/drobot_ui/drobot_ui.egg-info/zip-safe
 drobot_ui/__init__.py
+drobot_ui/nodes/__init__.py
+drobot_ui/nodes/ui_node.py
 resource/drobot_ui
 test/test_copyright.py
 test/test_flake8.py
